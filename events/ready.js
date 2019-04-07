@@ -10,5 +10,5 @@ module.exports = class extends Event {
     });
   }
 
-  run() { this.client.user.setActivity('+help', { type: 'LISTENING' }); }
+  run() { this.client.user.setActivity('+help | Oblo', { type: 'LISTENING' }); }
 };
