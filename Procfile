@@ -1,1 +1,1 @@
-worker: node ichicode.js
+worker: node Ichicode.js
