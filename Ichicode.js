@@ -54,8 +54,8 @@ const client = new KlasaClient({
   cmdEditing: true,
   cmdLogging: true,
   cmdPrompt: true,
-  ignoreSelf: false,
-  ignoreBots: false,
+  ignoreSelf: true,
+  ignoreBots: true,
   typing: true,
   commandMessageLifetime: 60,
 });
